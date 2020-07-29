@@ -8,6 +8,9 @@ function Footer() {
       <a href="/">
         <img src={Logo} alt="Logo IFLIX" height="30px" />
       </a>
+      <h3>
+        As melhores músicas você encontra aqui!! 
+      </h3>
       <p>
         Orgulhosamente criado durante a
         {' '}

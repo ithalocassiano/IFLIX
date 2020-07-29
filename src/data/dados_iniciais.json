@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Músicas",
+      "titulo": "As mais ouvidas",
       "cor": "#EFA8FF",
       "link_extra": {
         "text": "Priscilla Alcantara - Girassol (R&B Version))",
@@ -32,6 +32,64 @@
           "titulo": "Lady Gaga, Ariana Grande - Rain On Me (Official Music Video)",
           "url": "https://www.youtube.com/watch?v=AoAm4om0wTs"
         }
+      ]
+    },
+
+    
+    {
+      "titulo": "Ariana Grande",
+      "link": "",
+      "cor": "#986B8D",
+      "link_extra": {
+        "text": "Ariana Grande - 7 rings (Official Video)",
+        "url": "https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=PLFO0esT_hEQQauHgHtX_-nSRSgBvNJcCx"
+      },
+      "videos": [
+        {
+          "titulo": "Ariana Grande - Into You (Official Video)",
+          "url": "https://www.youtube.com/watch?v=1ekZEVeXwek"
+        },
+        {
+          "titulo": "Ariana Grande - Dangerous Woman",
+          "url": "https://www.youtube.com/watch?v=9WbCfHutDSE"
+        },
+        {
+          "titulo": "Ariana Grande - Let Me Love You (Official) ft. Lil Waynes",
+          "url": "https://www.youtube.com/watch?v=5WL672bjJgM"
+        },
+        {
+          "titulo": "Jessie J, Ariana Grande, Nicki Minaj - Bang Bang (Official Video)",
+          "url": "https://www.youtube.com/watch?v=0HDdjwpPM3Y&list=PLFO0esT_hEQQauHgHtX_-nSRSgBvNJcCx&index=4"
+        }       
+      ]
+    },
+
+    
+    {
+      "titulo": "PlayList's",
+      "link": "",
+      "cor": "#AA3D3D",
+      "link_extra": {
+        "text": "Britney Spears - Playlist",
+        "url": "https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=PLFO0esT_hEQQauHgHtX_-nSRSgBvNJcCx"
+      },
+      "videos": [
+        {
+          "titulo": "Jessie J - Playlist",
+          "url": "https://www.youtube.com/watch?v=DzwkcbTQ7ZE&list=RDEMS9AE5uKhJrwi-IRdV48G0A&start_radio=1"
+        },
+        {
+          "titulo": "Pabllo Vittar - Playlist",
+          "url": "https://www.youtube.com/watch?v=3L5D8by1AtI&list=RDEMM2rZPBD7UWDWUUWvYAbz0Q&start_radio=1"
+        },
+        {
+          "titulo": "Britney Spears - Playlist",
+          "url": "https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=PLFO0esT_hEQQauHgHtX_-nSRSgBvNJcCx"
+        },
+        {
+          "titulo": "Gloria Groove - Playlist",
+          "url": "https://www.youtube.com/watch?v=2T9b47ZtwQU&list=RDEMsaZPxHpfk8yY_bUiiR0-5w&start_radio=1"
+        }     
       ]
     },
 
