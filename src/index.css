@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Concert One', sans-serif; /*Roboto*/
+  
+}
+
+:root {
+  --grayDark: #141414;
+  --primary: #48E0BB;
+  --primary1: #2A7AE4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+} 
