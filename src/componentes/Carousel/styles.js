@@ -3,14 +3,16 @@ import styled from 'styled-components';
 export const Title = styled.h3`
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   background: red;
   line-height: 1;
   border-radius: 4px;
+
+
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -21,6 +23,7 @@ export const Title = styled.h3`
 export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;
+  
   transition: opacity .3s;
   &:hover,
   &:focus {
@@ -49,7 +52,7 @@ export const VideoCardList = styled.ul`
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
-  min-height: 197px;
+  min-height: 150px;
   margin-left: 5%;
   margin-bottom: 16px;
 `;

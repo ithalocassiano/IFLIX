@@ -6,11 +6,12 @@ function Footer() {
   return (
     <FooterBase>
       <a href="/">
-        <img src={Logo} alt="Logo IFLIX" height="30px" />
+        <img src={Logo} alt="Logo IFLIX" height="25px" />
       </a>
       <h3>
         As melhores músicas você encontra aqui!! 
       </h3>
+      <br/>
       <p>
         Orgulhosamente criado durante a
         {' '}

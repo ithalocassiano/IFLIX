@@ -67,12 +67,7 @@
     
     {
       "titulo": "PlayList's",
-      "link": "",
       "cor": "#AA3D3D",
-      "link_extra": {
-        "text": "Britney Spears - Playlist",
-        "url": "https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=PLFO0esT_hEQQauHgHtX_-nSRSgBvNJcCx"
-      },
       "videos": [
         {
           "titulo": "Jessie J - Playlist",
