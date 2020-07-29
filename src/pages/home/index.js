@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import Menu from './componentes/Menu';
-import Footer from './componentes/Footer';
-import Carousel from './componentes/Carousel';
-import BannerMain from './componentes/BannerMain';
-import dadosIniciais from './data/dados_iniciais.json';
+import Menu from '../../componentes/Menu';
+import Footer from '../../componentes/Footer';
+import Carousel from '../../componentes/Carousel';
+import BannerMain from '../../componentes/BannerMain';
+import dadosIniciais from '../../data/dados_iniciais.json';
 
 
 const AppWrapper = styled.div`
@@ -19,7 +19,7 @@ const AppWrapper = styled.div`
 
 
 
-function App() {
+function Home() {
   return (
     <AppWrapper>
       <Menu />
@@ -86,4 +86,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

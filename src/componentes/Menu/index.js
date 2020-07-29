@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/IFLIX-BLUE.png';
 
-import { LogoImage, MenuWrapper} from './style.js'
+import { LogoImage, MenuWrapper} from './style.js';
+import { Link } from   'react-router-dom';
 
 
 import Button from '../Button';
@@ -10,11 +11,11 @@ import Button from '../Button';
 function Menu(){
     return (
         <MenuWrapper className="Menu">
-            <a href="/">     
+            <Link to="/">     
                 <LogoImage className="Logo" src={Logo} alt="Iflix logo"/>
-            </a>
+            </Link>
 
-            <Button as="a" className="ButtonLink" href="">
+            <Button as={Link} className="ButtonLink" to="cadastro/video">
                 NOVO CLIPE
             </Button>
         </MenuWrapper>
