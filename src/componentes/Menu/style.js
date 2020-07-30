@@ -18,8 +18,7 @@ export const MenuWrapper = styled.nav`
     z-index: 100;
     display: flex;
     width: 100%;
-    height: 80px;
-    
+    height: 110px;
 
     position: fixed;
     top: 0;

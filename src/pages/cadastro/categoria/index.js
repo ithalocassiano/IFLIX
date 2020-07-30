@@ -3,16 +3,16 @@ import PagePadrao from '../../../componentes/pagePadrao';
 import { Link } from 'react-router-dom';
 
 
-function CadastroVideo () {
+function CadastroCategoria () {
     return (
         <PagePadrao>
             
-                <h1>Cadastro de Vídeo</h1>
+                <h1>Cadastro de Categoria</h1>
 
                 <br/>
 
-                <Link to="/cadastro/categoria">
-                    Cadastrar Categoria
+                <Link to="/">
+                    Ir para home
                 </Link>
           
             
@@ -20,4 +20,4 @@ function CadastroVideo () {
     )
 }
 
-export default CadastroVideo;
+export default CadastroCategoria;
