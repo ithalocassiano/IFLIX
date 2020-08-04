@@ -5,14 +5,15 @@
 }
 
 :root {
-  --grayDark: #141414;
+  --grayDark: #2E3331;
   --primary: #48E0BB;
   --primary1: #2A7AE4;
-  --black: #000000;
+  --black1: #000000;
+  --black: #40504C;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
-  --white: #FFFFFF;
+  --white: #48E0BB;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
 }

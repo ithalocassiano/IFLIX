@@ -6,10 +6,10 @@ export const VideoCardContainer = styled.a`
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  color: white;
+  color: var(--primary);
   flex: 0 0 250px;
-  width: 250px;
-  height: 150px;
+  height: 250px;
+  width: 150px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -31,7 +31,7 @@ export const VideoCardContainer = styled.a`
 
   @media (max-width: 800px){
     flex: 0 0 200px;
-    width: 200px;
-    height: 110px;
+    height: 200px;
+    width: 110px;
   }
 `;
