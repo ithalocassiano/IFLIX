@@ -4,35 +4,94 @@ import { Link } from 'react-router-dom';
 
 
 function CadastroCategoria () {
-    const [categorias, setCategorias] = useState(['teste']);
-    const [nomeDaCategoria, setNomeDaCategoria] = useState('Filmes');
-    //nome da variavel, função pra mudar a variavel e valor inicial da variavel
+
+     const [categorias, setCategorias] = useState([]);
+
+    const valoresIniciais = {
+        nome: '',
+        descricao: '',
+        cor: '',
+    }
+
+   
+
+    const [valores, setValores] = useState(valoresIniciais);
+
+    function setValore(chave, valor){
+        setValores({
+            ...valores,
+            [chave]: valor,
+        })
+    }
+    
+    function funcaoTeste(infoDoEvento){
+        const {getAttribute, valor} = infoDoEvento.target;
+
+        setValore(
+            getAttribute('nome'),
+            valor
+        );
+    }
+
+    
+
+    
+
     
     
     return (
         <PagePadrao>
             
-                <h1>Cadastro de Categoria : {nomeDaCategoria} </h1>
+                <h1>Cadastro de Categoria : {valores.nome} </h1>
 
                 
                 <form onSubmit={function handleSubmit(infosDoEvento){
                         infosDoEvento.preventDefault();
                         setCategorias([
                             ...categorias,
-                            nomeDaCategoria
+                            valores
                         ]);
 
+                        setValores(valoresIniciais);
+
                     }}>
-                    <label>
-                        NOME DA CATEGORIA: 
-                        <input
-                            type="text"
-                            value={nomeDaCategoria}
-                            onChange={function funcaoTeste(infoDoEvento){
-                                setNomeDaCategoria(infoDoEvento.target.value);
-                            }}
-                        />
-                    </label>
+
+                    <div>
+                        <label>
+                            NOME DA CATEGORIA: 
+                            <input
+                                type="text"
+                                name='name'
+                                value={valores.nome}
+                                onChange={funcaoTeste} 
+                            />
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>
+                            DESCRIÇÃO: 
+                            <textarea
+                                type="text"
+                                name='descrição'
+                                value={valores.descricao}
+                                onChange={funcaoTeste}
+                            />
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            COR: 
+                            <input
+                                type="color"
+                                name='cor'
+                                value={valores.cor}
+                                onChange={funcaoTeste}
+                            />
+                        </label>
+                    </div>
+        
 
                     <button>
                         Cadastrar agora
@@ -43,7 +102,7 @@ function CadastroCategoria () {
                     {categorias.map((categoria, indice) => {
                         return(
                             <li key={`${categoria}${indice}`}>
-                                {categoria}
+                                {categoria.nome}
                             </li>
                         )
                     })}
